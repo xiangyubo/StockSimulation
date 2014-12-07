@@ -24,7 +24,8 @@ void Logout::excute(StockSystem *stock_system)
 
 void Logout::leave(StockSystem *stock_system)
 {
-    
+    delete stock_system->user;
+    stock_system->user = nullptr;
 }
 
 void Logout::transform(StockSystem *stock_system)

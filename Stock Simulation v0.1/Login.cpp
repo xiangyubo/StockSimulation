@@ -22,7 +22,8 @@ void Login::excute(StockSystem *stock_system)
 {
     if(stock_system->checkUser(user_name, password) == true)
     {
-        User user;
+        stock_system->user = new User(user_name);
+        stock_system->user->initStocks();
         stock_system->state = StockSystem::SystemState::SOMEBODY;
     }
     else

@@ -45,8 +45,6 @@ bool StockSystem::checkUser(const string& user_name, const string& password)
     {
         if(user_name == name && password == pswd)
         {
-            user = new User(user_name);
-            user->initStocks();
             return true;
         }
     }
