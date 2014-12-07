@@ -1,0 +1,30 @@
+﻿Build started 2014/12/7 12:27:47.
+     1>Project "F:\VS2012程序集合\test_code_set\Stock Simulation\Stock Simulation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\program_tools\vs2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt StockRecord.cpp User.cpp
+         User.cpp
+         StockRecord.cpp
+         Generating Code...
+       Link:
+         D:\program_tools\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012程序集合\test_code_set\Stock Simulation\Debug\Stock Simulation.exe" /INCREMENTAL /NOLOGO lua51.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012程序集合\test_code_set\Stock Simulation\Debug\Stock Simulation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012程序集合\test_code_set\Stock Simulation\Debug\Stock Simulation.lib" /MACHINE:X86 Debug\Buy.obj
+         Debug\DataManager.obj
+         Debug\Inquiry.obj
+         Debug\Login.obj
+         Debug\Logout.obj
+         Debug\Selection.obj
+         Debug\Sell.obj
+         Debug\Source.obj
+         Debug\Stock.obj
+         Debug\StockMarket.obj
+         Debug\StockPool.obj
+         Debug\StockRecord.obj
+         Debug\StockSystem.obj
+         Debug\TransactionItem.obj
+         Debug\User.obj
+         Debug\Welcome.obj
+         Stock Simulation.vcxproj -> F:\VS2012程序集合\test_code_set\Stock Simulation\Debug\Stock Simulation.exe
+     1>Done Building Project "F:\VS2012程序集合\test_code_set\Stock Simulation\Stock Simulation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59
