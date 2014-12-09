@@ -12,7 +12,7 @@ InquiryPage* InquiryPage::getInstance()
 
 void InquiryPage::enter(StockSystem *stock_system)
 {
-    cout << "*** Please input one or more stock names for inquiry, and end with 0: *** " << endl;
+    cout << "*** Please input one or more stock names for inquiry: *** " << endl;
     cin>>input_line;
 }
 

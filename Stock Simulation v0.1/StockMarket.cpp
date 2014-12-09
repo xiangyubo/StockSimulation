@@ -1,5 +1,6 @@
 #include"StockMarket.h"
 #include"DataManager.h"
+#include<thread>
 #include<sstream>
 #include<cstdio>
 using namespace std;
